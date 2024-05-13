@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign Finder</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="form">
   <nav class="navbar">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -14,5 +14,14 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+    <h1>Zodiac Sign Finder</h1>
+    <form id="birthdateForm">
+        <label for="birthdate">Enter your birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        <button type="submit">Find My Zodiac Sign</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>

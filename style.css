@@ -28,3 +28,44 @@ p{
   color:purple;
   font-family: 'Times New Roman', Times, serif
 }
+
+
+
+.form {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* h1 {
+    text-align: center;
+    margin-top: 20px; */
+/* } */
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="date"] {
+    padding: 8px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}

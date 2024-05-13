@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+  background:pink;
+}
+.navbar{
+  background:white;
+  border-radius:30px;
+}
+.navbar ul{
+
+list-style-type: none
+  margin: 0auto;
+  padding: 0;
+}
+.navbar ul li{
+  display: inline-block;
+  margin: 10px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: purple;
+}
+h1{
+  color:purple;
+  font-family: 'Times New Roman', Times, serif;';
+}
+p{
+  color:purple;
+  font-family: 'Times New Roman', Times, serif
+}

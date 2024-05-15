@@ -1,3 +1,7 @@
+
+
+alert(Hello);
+
 document.getElementById('birthdateForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
 
@@ -47,7 +51,7 @@ function getZodiacSign(birthdate) {
 console.log (hello)
 
 
-
+alert(Hello);
 
 
 
